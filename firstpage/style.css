@@ -1,0 +1,26 @@
+h1 {
+	color: orange;
+}
+
+p {
+	color: rgb(210,105,30);
+	width: 600px;
+}
+
+img {
+	width: 600px;
+}
+
+ol {
+	width: 600px;
+	background-color: rgb(255,226,200);
+}
+
+body {
+	background-image: url(richhh.gif);
+	background-size: cover;
+}
+
+.special {
+	color: rgb(255,0,0);
+}
