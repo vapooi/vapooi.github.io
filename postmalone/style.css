@@ -1,0 +1,562 @@
+html, body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.social {
+	background-image: url(social.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 2vw;
+	left: 12vw;
+	background-color: transparent;
+	width: 40vw;
+	height: 10vh;
+}
+
+}
+
+.postmalone { transition: all .2s ease-in-out; }	
+
+.postmalone:hover {
+	transform: scale(1.1);
+}
+
+.headline {
+	position: absolute;
+	margin: auto;
+	top: 0px;
+	left: 0vw;
+	font-family: 'Monoton', cursive;
+	font-size: 6vw;
+	font-weight: normal;
+	color: yellow;
+	letter-spacing: 1vw;
+	text-align: center;
+	width: 100vw;
+	background-position: center;
+}
+
+video {
+	width: 1440px;
+}
+
+.postback {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.postmalone {
+	width: 40vw;
+	height: 84vh;
+	position: absolute;
+	left: 46vw;
+	background-image: url(post.png);
+	background-position: bottom;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	bottom: 0;
+}
+
+.postmalone0 {
+	width: 40vw;
+	height: 82vh;
+	position: absolute;
+	left: 54vw;
+	background-image: url(postmaloneo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	bottom: 0;
+}
+
+.postmalone1 {
+	width: 40vw;
+	height: 82vh;
+	position: absolute;
+	left: 60vw;
+	background-image: url(postmaloneo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	bottom: 0;
+}
+
+.postmalone2 {
+	width: 40vw;
+	height: 82vh;
+	position: absolute;
+	left: 66vw;
+	background-image: url(postmaloneo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	bottom: 0;
+	opacity: 0.7;
+}
+
+.postmalone3 {
+	width: 40vw;
+	height: 82vh;
+	position: absolute;
+	left: 72vw;
+	background-image: url(postmaloneo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	bottom: 0;
+	opacity: 0.5;
+	overflow: hidden;
+}
+
+.postmalone4 {
+	width: 40vw;
+	height: 82vh;
+	position: absolute;
+	left: 78vw;
+	background-image: url(postmaloneo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	bottom: 0;
+	opacity: 0.3;
+	overflow: hidden;
+}
+
+.black {
+	background-color: black;
+	top: 0vw;
+	left: 0vw;
+	height: 9vw;
+	width: 100vw;
+	position: absolute;	 
+	border-radius: 30px;
+}
+
+.black2 {
+	background-color: black;
+	top: -6vw;
+	left: 0vw;
+	height: 12vw;
+	width: 100vw;
+	position: absolute;
+	text-align: center;
+}
+
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: yellow;
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	opacity: 0.7;
+}
+
+.barclay {
+	width: 80vw;
+	font-size: 8vw;
+	top: 10vw;
+	position: absolute;
+	color: black;
+	font-family: 'Helvetica', normal;
+}
+
+.bar {
+	display: block;
+	position: absolute;
+	left: 2vh;
+	top: 19vw;
+	height: 3vw;
+	width: 60vw;
+	background-color: transparent;
+	border-radius: 30px;
+	border: 1px solid;
+}
+
+.barin1 {
+	height: 3vh;
+	width: 80vw;
+	background-color: transparent;
+}
+
+.bar2 {
+	display: block;
+	position: absolute;
+	left: 2vh;
+	top: 35vw;
+	height: 3vw;
+	width: 50vw;
+	background-color: transparent;
+	border-radius: 30px;
+	border: 1px solid;
+}
+
+.date {
+	word-spacing: .8vw;
+	position: absolute;
+	font-size: 8vw;
+	top: 22vw;
+	color: black;
+	font-family: 'Helvetica', normal;
+}
+
+
+.ticket {
+	position: absolute;
+	font-size: 8vw;
+	top: 38vw;
+	color: black;
+	font-family: 'Helvetica', normal;
+}
+
+.place {
+	left: 1vw;
+	position: absolute;
+	font-size: 2.75vw;
+	top: 31vw;
+	color: black;
+	font-family: 'Helvetica', normal;
+}
+
+.footer {
+	background-color: black;
+	bottom: 0;
+	left: 0vw;
+	height: 9vw;
+	width: 100vw;
+	position: absolute;	 
+	text-align: center;
+	border-radius: 30px;
+}
+
+.footer2 {
+	background-color: black;
+	bottom: 0;
+	left: 0vw;
+	height: 4vw;
+	width: 100vw;
+	position: absolute;	 
+	text-align: center;
+}
+	
+@media (max-width: 850px) {
+	.bar {
+		width: 100vw;
+		left: 0vw;
+	}
+}
+
+@media (max-width: 850px) {
+	.postmalone0 {
+	background-position: center;
+	}
+}
+
+@media (max-width: 720px) {
+
+	.social {
+	background-image: url(fbig.png);
+	}
+
+	.social2 {
+	background-image: url(twittube.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 2vw;
+	right: 8vw;
+	background-color: transparent;
+	width: 40vw;
+	height: 10vh;
+	}
+
+
+	.postmalone0 {
+	width: 100%;
+	height: 60vh;
+	left: -12vw;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	}
+
+	.postmalone0b {
+	width: 100%;
+	height: 60vh;
+	position: absolute;
+	right: -10vw;
+	background-image: url(postmaloneo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	bottom: -12px;
+	}
+
+	.postmalone1 {
+	width: 100%;
+	height: 60vh;
+	left: 40vw;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	}
+
+	.postmalone1b {
+	width: 100%;
+	height: 60vh;
+	right: 0vw;
+	background-image: url(postmaloneo.png);
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	}
+
+
+	.postmalone2 {
+	width: 100%;
+	height: 60vh;
+	left: 50vw;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	}
+
+	.postmalone2b {
+	width: 100%;
+	height: 60vh;
+	right: 10vw;
+	background-image: url(postmaloneo.png);
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	opacity: 0.7;
+	}
+
+	.postmalone3 {
+	width: 100%;
+	height: 60vh;
+	left: 60vw;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	}
+
+	.postmalone3b {
+	width: 100%;
+	height: 60vh;
+	right: 20vw;
+	background-image: url(postmaloneo.png);
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	opacity: 0.5;
+	}
+
+	.postmalone4 {
+	width: 100%;
+	height: 60vh;
+	left: 70vw;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	}
+
+	.postmalone4b {
+	width: 100%;
+	height: 60vh;
+	right: 30vw;
+	background-image: url(postmaloneo.png);
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	opacity: 0.3;
+	}
+
+	.postmalone {
+	width: 100vw;
+	height: 60vh;
+	left: 0vw;
+	position: absolute;
+	background-image: url(post.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: 0;
+	}
+
+	.barclay {
+	width: 100vw;
+	font-size: 60px;
+	top: 70px;
+	left: 0vw;
+	text-align: center;
+	}
+
+	.bar {
+	left: 0vw;
+	top: 140px;
+	width: 100vw;
+	height: 2vh;
+	border: transparent;
+	}
+
+	.date {
+	left: 0vw;
+	top: 155px;
+	width: 100vw;
+	font-size: 60px;
+	text-align: center;
+	}
+
+	.place {
+	left: 0vw;
+	top: 220px;
+	width: 100vw;
+	font-size: 20.5px;
+	text-align: center;
+	}
+
+	.ticket {
+	left: 0vw;
+	top: 272px;
+	width: 100vw;
+	font-size: 60px;
+	text-align: center;	
+	}
+
+	.bar2 {
+	left: 0vw;
+	top: 255px;
+	width: 100vw;
+	height: 2vh;
+	border: transparent;
+	}
+
+	.barin1 {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	height: 2vh;
+	left: 5vw;
+	width: 90vw;
+	border-radius: 30px;
+	border: 1px solid;
+	}
+
+	.barin2 {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	height: 2vh;
+	left: 15vw;
+	width: 70vw;
+	border-radius: 30px;
+	border: 1px solid;
+	}
+}
+
+@media (max-width: 440px) {
+	.barclay {
+	top: 60px;
+	font-size: 52px;
+	}
+
+	.barin1 {
+	top: -10px;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	height: 2vh;
+	left: 5vw;
+	width: 90vw;
+	border-radius: 30px;
+	border: 1px solid;
+	}
+
+	.date {
+	top: 155px;
+	font-size: 52px;
+	}
+
+	.place {
+	font-size: 17.5px;
+	}
+
+	.ticket {
+	font-size: 52px;
+	top: 275px;
+	}
+
+	.barin2 {
+	top: -10px;
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	height: 2vh;
+	left: 15vw;
+	width: 70vw;
+	border-radius: 30px;
+	border: 1px solid;
+	}
+
+}
+
+@media (max-width: 458px){
+	.postmalone0 {
+	width: 100%;
+	height: 60vh;
+	left: 10vw;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: -12px;
+	}
+
+	.social {
+	opacity: 0;
+	}
+
+	.social2 {
+	opacity: 0;
+	}
+}
+
+@media (max-width: 565px){
+	.social2 {
+	background-image: url(twittube.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 2vw;
+	right: 8vw;
+	background-color: transparent;
+	width: 40vw;
+	height: 10vh;
+}
+}
