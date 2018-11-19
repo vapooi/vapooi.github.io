@@ -19,12 +19,13 @@ html, body
 	height: 10vh;
 }
 
-}
 
-.postmalone { transition: all .2s ease-in-out; }	
 
-.postmalone:hover {
+.grow { transition: all .2s ease-in-out; }	
+
+.grow:hover {
 	transform: scale(1.1);
+	color: white;
 }
 
 .headline {
@@ -83,7 +84,7 @@ video {
 }
 
 .postmalone1 {
-	width: 40vw;
+	width: 37vw;
 	height: 82vh;
 	position: absolute;
 	left: 60vw;
