@@ -17,7 +17,8 @@ html, body
 	left: 720px;
 	height: 820px;
 	width: 720px; 
-	opacity: .50;
+	opacity: .250;
+	filter: blur(2px);
 }
 
 .bg1 {
@@ -149,7 +150,7 @@ button:focus {
 
 .shoedesc {
 	position: absolute;
-	font-family: "Georgia";
+	font-family: "Helvetica";
 	text-align: center;
 	font-size: 15px;
 	height: 280px;
