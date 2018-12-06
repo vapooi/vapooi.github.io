@@ -2,6 +2,123 @@ img {
 	pointer-events: none;
 }
 
+html, body
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.bg {
+	position: absolute;
+	top: 0px;
+	left: 720px;
+	height: 820px;
+	width: 720px; 
+	opacity: .50;
+}
+
+.bg1 {
+	background-image: url("banned1bg.jpg");
+}
+
+.bg2 {
+	background-image: url("hiroshi1.jpg");
+}
+
+.bg3 {
+	background-image: url("virgil1.jpg");
+}
+
+.bg4 {
+	background-image: url("royalbg.jpg");
+}
+
+.bg5 {
+	background-image: url("uncbg.jpg");
+}
+
+.bg6 {
+	background-image: url("shatbg.jpg");
+}
+
+.bg7 {
+	background-image: url("unionbg.jpg");
+}
+
+.bg8 {
+	background-image: url("nigelbg.jpg");
+}
+
+.bg9 {
+	background-image: url("shadowbg.jpg");
+}
+
+.bg10 {
+	background-image: url("purpbg.jpg");
+}
+
+.bg11 {
+	background-image: url("pinebg.jpg");
+}
+
+.bg12 {
+	background-image: url("chibg.jpg");
+}
+
+.bg13 {
+	background-image: url("topbg.jpg");
+}
+
+
+
+.button {
+ display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-style: normal;
+    font-family: "Helvetica";
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+button:hover,
+button:focus {
+    background: #f4f4f4;
+}
+
+
+.button{
+	position: absolute;
+	left: 640px;
+	top: 670px;
+}
+
+
+.intro {
+	position: absolute;
+	background-color: white;
+	width: 100%;
+	height: 100%; 
+	top: 0vw;
+	left: 0vw;
+	background-image: url(intro.gif);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
 .line {
 	position: absolute;	
 	background-color: black;
@@ -56,9 +173,8 @@ img {
 
 .container {
 	position: absolute;
-	margin-top: -180px;
 	left: 100px;
-	top: 50%;
+	top: 230px;
 	height: 280px;
 	width: 500px;
 }

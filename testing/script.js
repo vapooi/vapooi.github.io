@@ -1,226 +1,217 @@
 $(document).ready(function() {
-	$(".div1").hover(function(){
-		$(".div1").toggleClass("overflow");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
+	$(".square").mouseenter(function(){
+		$(".square").addClass("hide");
+		$(this).removeClass("hide");
+		$(this).addClass("overflow");
+		
+		$(".bg").toggleClass($(this).attr("data-bg")  );
 	});
 
-	$(".div2").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("overflow");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
+	$(".square").mouseleave(function(){
+		$(".square").removeClass("hide");
+
+		$(this).removeClass("overflow");
+		
+		$(".bg").toggleClass($(this).attr("data-bg")  );
 	});
 
-	$(".div3").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("overflow");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div2").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("overflow");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// 	$(".bg").toggleClass("bg2")
+	// });
 
-	$(".div4").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("overflow");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div3").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("overflow");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// 	$(".bg").toggleClass("bg3")
+	// });
 
-	$(".div5").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("overflow");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div4").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("overflow");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// });
 
-	$(".div6").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("overflow");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div5").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("overflow");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// });
 
-	$(".div7").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("overflow");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div6").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("overflow");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// });
 
-	$(".div8").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("overflow");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div7").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("overflow");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// });
 
-	$(".div9").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("overflow");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div8").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("overflow");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// });
 
-	$(".div10").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("overflow");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div9").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("overflow");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// });
 
-	$(".div11").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("overflow");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div10").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("overflow");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// });
 
-	$(".div12").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("overflow");
-		$(".div13").toggleClass("hide");
-	});
+	// $(".div11").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("overflow");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("hide");
+	// });
 
-	$(".div13").hover(function(){
-		$(".div1").toggleClass("hide");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("overflow");
-	});
+	// $(".div12").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("overflow");
+	// 	$(".div13").toggleClass("hide");
+	// });
+
+	// $(".div13").hover(function(){
+	// 	$(".div1").toggleClass("hide");
+	// 	$(".div2").toggleClass("hide");
+	// 	$(".div3").toggleClass("hide");
+	// 	$(".div4").toggleClass("hide");
+	// 	$(".div5").toggleClass("hide");
+	// 	$(".div6").toggleClass("hide");
+	// 	$(".div7").toggleClass("hide");
+	// 	$(".div8").toggleClass("hide");
+	// 	$(".div9").toggleClass("hide");
+	// 	$(".div10").toggleClass("hide");
+	// 	$(".div11").toggleClass("hide");
+	// 	$(".div12").toggleClass("hide");
+	// 	$(".div13").toggleClass("overflow");
+	// });
 
 	$(".div1").click(function(){
 		$(".div1").toggleClass("overflow");
-		$(".div2").toggleClass("hide");
-		$(".div3").toggleClass("hide");
-		$(".div4").toggleClass("hide");
-		$(".div5").toggleClass("hide");
-		$(".div6").toggleClass("hide");
-		$(".div7").toggleClass("hide");
-		$(".div8").toggleClass("hide");
-		$(".div9").toggleClass("hide");
-		$(".div10").toggleClass("hide");
-		$(".div11").toggleClass("hide");
-		$(".div12").toggleClass("hide");
-		$(".div13").toggleClass("hide");
+		$(".bg").toggleClass("bg1")
 	});
 	$(".div1").click(function(){
 		$(".shoename").text("'Banned'");
@@ -242,6 +233,7 @@ $(document).ready(function() {
 		$(".div11").toggleClass("hide");
 		$(".div12").toggleClass("hide");
 		$(".div13").toggleClass("hide");
+		$(".bg").toggleClass("bg2")
 		$(".shoename").text("Fragment Design x AJ1");
 		$(".year").text("2014");
 		$(".shoedesc").text("The Nike Fragment Design x Air Jordan 1 Retro High OG is the first collaboration between Hiroshi Fujiwara's Fragment Design and Brand Jordan. One of the most coveted Air Jordan 1 colorways ever created, the design combines the OG black-toe color blocking with royal blue accents. Released in limited quantities in December 2014, the design also includes Nike Air branding on the tongue and a Fragment Design logo at the heel.");
@@ -261,6 +253,7 @@ $(document).ready(function() {
 		$(".div11").toggleClass("hide");
 		$(".div12").toggleClass("hide");
 		$(".div13").toggleClass("hide");
+		$(".bg").toggleClass("bg3")
 		$(".shoename").text("OFF-WHITE x AJ1");
 		$(".year").text("2018");
 		$(".shoedesc").text("Created by designer Virgil Abloh, the Air Jordan 1 x OFF-WHITE comes in the classic Chicago colorway. Some of the sneakers' half-finished features include a Swoosh connected to the shoe with visible blue stitching, 'Air' printed on the midsole, and an OFF-WHITE zip tie on the collar. The box comes deconstructed as it's been turned inside-out with the inside consisting of a black base and gold Jumpman logo, while the outside is plain cardboard with the words 'Jumpman' printed on it. Virgil's OFF-WHITE collection included remixed iterations of the Air VaporMax, Air Presto, Air Max 90, Blazer, Air Max 97, Hyperdunk 2017, Air Force 1, Zoom Fly, and Chuck Taylor.");
@@ -456,4 +449,9 @@ $(document).ready(function() {
 		$(".shoedesc").text("In 2016, Nike combined three original Air Jordan 1 colorways ('Bred/Banned,' 'Chicago,' and 'Royal') into one new colorway, the Air Jordan 1 Retro High OG 'Top 3'. The sneaker comes in mismatched' color panels and outsoles while staying true to the original design by featuring the 'Wings' logo on the ankle and Nike Air branding on the insole and tongue. 'Top 3' also nods to Jordan being drafted third overall in the 1984 NBA Draft.");
 	});
 
+	$(".button").click(function(){
+		$(".intro").hide(function(){
+			$(".intro").fadeOut(250, 0.25,)
+		});
+	});
 });
