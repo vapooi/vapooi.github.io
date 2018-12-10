@@ -120,16 +120,6 @@ button:focus {
 }
 
 
-.line {
-	position: absolute;	
-	background-color: black;
-	height: 820px;
-	width: 5px;
-	top: 0px;
-	left: 50%;
-	margin-left: -5px;
-}
-
 .text {
 	position: absolute;
 	top: 230px;
